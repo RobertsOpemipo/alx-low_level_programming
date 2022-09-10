@@ -3,7 +3,7 @@
 
 
 /**
- * *
+ * *Programming is like building a multilingual puzzle
  *  * main - Entry point
  *
  *   *
@@ -12,7 +12,7 @@
  *
  **/
 
-int main (void)
+int main(void)
 
 {
 
