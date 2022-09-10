@@ -4,11 +4,11 @@
 
 /**
  *
- *  main - Entry point
- *  Programming is like building a multilingual puzzle
- * 
+ *  * main - Entry point
  *
- * Return: Always 0 (Success)
+ *   *
+ *
+ *    * Return: Always 0 (Success)
  *
  **/
 
