@@ -5,9 +5,7 @@
 * You can only use the putchar
 * Return : Always 0 (Success)
 **/
-
 int main(void)
-
 {
 	int l = 'a';
 	while (l <= 'z')
