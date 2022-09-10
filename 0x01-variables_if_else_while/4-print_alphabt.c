@@ -16,7 +16,7 @@ if (lw == 'e' || lw == 'q')
 {
 lw += 1;
 }
-else 
+else
 {
 putchar(lw);
 lw += 1;
