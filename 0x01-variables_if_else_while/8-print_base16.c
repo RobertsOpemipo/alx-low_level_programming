@@ -15,7 +15,7 @@ while (n <= 57)
 putchar(n);
 n += 1;
 }
-while (1 <= 'f')
+while (l <= 'f')
 {
 putchar(l);
 l++;
