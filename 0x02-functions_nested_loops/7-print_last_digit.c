@@ -8,11 +8,10 @@
 
 int print_last_digit(int a)
 {
-if (a >= 0 && a <= 9)
-	return(a);
-else
-{
-	a = _abs(a % 10);
-	return (a);
-}
+int last_digit = n % 10;
+
+if (last_digit < 0)
+	last_digit *= -1;
+_putchar(last_digit * '0');
+return (last_digit);
 }
