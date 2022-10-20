@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * print_list - prints list.
@@ -8,16 +10,22 @@
 
 size_t print_list(const list_t *h)
 {
-size_t nodelen;
-nodelen = 0;
+size_t cont = 0;
+
 while (h != NULL)
 {
 	if (h->str == NULL)
-		printf("[%d] %s\n", 0, "(nil)");
+	{
+		printf("[0] (nil)\n");
+		h = h->next;
+		cont++;
+	}
 	else
-		printf("[%d] %s\n", h->len, h->str);
-	h = h->next;
-	nodelen++;
+	{
+		printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
+		cont++;
+	}
 }
-return (nodelen);
+return (cont);
 }
